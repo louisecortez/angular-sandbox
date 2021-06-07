@@ -1,0 +1,7 @@
+<nav>
+    <button (click)="toggle()">Click</button>
+</nav>
+
+<div [@openClose]="isOpen ? 'open' : 'closed'">
+    Current state: {{ isOpen ? 'Open' : 'Closed' }}
+</div>
